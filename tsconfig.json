@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "outDir": "./dist",
     "target": "ESNext",
     "module": "NodeNext",
     "strict": true,
@@ -10,5 +11,8 @@
     ],
     "jsx": "react-jsx",
     "jsxImportSource": "hono/jsx",
-  }
+  },
+  "exclude": [
+    "node_modules"
+  ]
 }
