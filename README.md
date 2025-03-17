@@ -1,8 +1,9 @@
-```
-npm install
-npm run dev
-```
+## Redis-and-hono-app-dev
+
+### Install
 
 ```
-open http://localhost:3000
+npm install
+
+redis-server
 ```
